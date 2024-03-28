@@ -1,0 +1,9 @@
+query LaunchListFeature {
+  launches {
+    hasMore
+    launches {
+      id
+      site
+    }
+  }
+}
